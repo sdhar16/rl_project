@@ -21,7 +21,7 @@ def moving_average(data, window):
   data = np.convolve(data, weights, 'valid')
   return data
 
-def plot(data, title, xlabel, ylabel, c, smooth = 101, exp = False):
+def plot(data, title, xlabel, ylabel, c, smooth = 101, exp = False, ylim = (0,100)):
 
   if(exp):
     data = moving_average(data, smooth)
@@ -32,6 +32,7 @@ def plot(data, title, xlabel, ylabel, c, smooth = 101, exp = False):
   plt.title(title)
   plt.xlabel(xlabel)
   plt.ylabel(ylabel)
+  plt.ylim(ylim)
 
   plt.show()
 
