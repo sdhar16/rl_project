@@ -8,5 +8,5 @@ Use conda to setup the environment: `conda env create -f environment.yml`
 
 ## Running the file
 
-The mode the contain in the jupyter notebook play_chess.py. You can open it can run it from a jupyter environment. 
+The mode the contain in the jupyter notebook **play_chess.py**. You can open it can run it from a jupyter environment. 
 
