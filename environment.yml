@@ -81,4 +81,38 @@ dependencies:
   - zeromq=4.3.4=hbdafb3b_1
   - zlib=1.2.11=h5a0b063_4
   - zstd=1.4.9=h8574219_1
+  - pip:
+    - argon2-cffi==21.3.0
+    - argon2-cffi-bindings==21.2.0
+    - attrs==21.4.0
+    - beautifulsoup4==4.10.0
+    - bleach==4.1.0
+    - cffi==1.15.0
+    - defusedxml==0.7.1
+    - ipython-genutils==0.2.0
+    - ipywidgets==7.7.0
+    - jinja2==3.1.1
+    - jsonschema==4.4.0
+    - jupyter==1.0.0
+    - jupyter-console==6.4.3
+    - jupyterlab-pygments==0.1.2
+    - jupyterlab-widgets==1.1.0
+    - markupsafe==2.1.1
+    - mistune==0.8.4
+    - nbclient==0.5.13
+    - nbconvert==6.4.4
+    - nbformat==5.2.0
+    - notebook==6.4.10
+    - pandocfilters==1.5.0
+    - prometheus-client==0.13.1
+    - pycparser==2.21
+    - pyrsistent==0.18.1
+    - qtconsole==5.2.2
+    - qtpy==2.0.1
+    - send2trash==1.8.0
+    - soupsieve==2.3.1
+    - terminado==0.13.3
+    - testpath==0.6.0
+    - webencodings==0.5.1
+    - widgetsnbextension==3.6.0
 prefix: /Users/shreedhargovil/.miniconda3/envs/env
